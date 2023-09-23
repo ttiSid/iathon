@@ -1,22 +1,18 @@
-import "../index.css"
+import Nav from "./Nav";
+import Header from "./Header";
+import Section from "./Section";
+import Footer from "./Footer";
+
+import "../index.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <p>olá Mundo!</p>
-        </a>
-      </header>
-    </div>
+    <>
+      <Nav />
+      <Header />
+      <Section />
+      <Footer />
+    </>
   );
 }
 
