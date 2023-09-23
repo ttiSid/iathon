@@ -14,7 +14,6 @@ function App() {
           rel="noopener noreferrer"
         >
           <p>olá Mundo!</p>
-          <p>chegou!!!</p>
         </a>
       </header>
     </div>
