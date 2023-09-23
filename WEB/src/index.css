@@ -7,3 +7,5 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+@import url(blocks/nav.css);
+
