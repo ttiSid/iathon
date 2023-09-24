@@ -10,7 +10,7 @@
 .footer__container {
   align-items: center;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 0 5.12rem;
   width: 1440px;
 }
