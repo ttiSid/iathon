@@ -1,9 +1,10 @@
 import Nav from "./Nav";
 import Header from "./Header";
-import Section from "./Section";
+import World from "../contains/World";
 import Footer from "./Footer";
 
 import "../index.css";
+
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       <Nav />
       <div className="content">
         <Header />
-        <Section />
+        <World />
       </div>
       <Footer />
     </div>
