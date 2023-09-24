@@ -1,0 +1,49 @@
+.footer {
+  background-color: #1c3879;
+  display: flex;
+  height: 155px;
+  justify-content: center;
+  margin: 0;
+  max-width: 100%;
+}
+
+.footer__container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 5.12rem;
+  width: 1440px;
+}
+
+.footer__copyright {
+  color: #fff;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.footer__image {
+  height: 90%;
+  object-fit: cover;
+}
+
+.footer__repo {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer__team {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  padding: 0;
+}
+
+.footer__member {
+  color: #b3afaf;
+  text-decoration: none;
+}
+
+.footer__member:hover {
+  opacity: 0.5;
+  transition: ease-in 0.3s;
+}
