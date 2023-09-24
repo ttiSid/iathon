@@ -1,0 +1,42 @@
+.test {
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 12px 0px #00000078;
+  padding-bottom: 10px;
+}
+
+.test__text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.test__title {
+  font-size: 50px;
+  line-height: 76%;
+  margin: 0;
+  margin-top: 50px;
+}
+
+.test__paragraph {
+  max-width: 980px;
+  height: 140px;
+  font-size: 26px;
+  line-height: 134%;
+  text-align: center;
+  margin: 0;
+  margin-top: 30px;
+}
+
+.test__container {
+  display: flex;
+  justify-content: center;
+}
+
+.test__input-container {
+  width: 920px;
+  height: 460px;
+  background-color: #d9d9d9;
+  box-shadow: 0 0 12px 0px #00000078;
+}
