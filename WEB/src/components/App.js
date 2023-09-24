@@ -4,6 +4,7 @@ import Ia from "./IA";
 import World from "../contains/World";
 import Footer from "./Footer";
 import Types from "../contains/Types";
+import Country from "../contains/Country";
 
 import "../index.css";
 
@@ -16,6 +17,7 @@ function App() {
         <World />
         <Ia />
         <Types />
+        <Country />
       </div>
       <Footer />
     </div>
