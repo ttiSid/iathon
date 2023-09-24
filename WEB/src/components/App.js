@@ -3,6 +3,7 @@ import Header from "./Header";
 import Ia from "./IA";
 import World from "../contains/World";
 import Footer from "./Footer";
+import Types from "../contains/Types";
 
 import "../index.css";
 
@@ -14,6 +15,7 @@ function App() {
         <Header />
         <World />
         <Ia />
+        <Types />
       </div>
       <Footer />
     </div>
