@@ -1,9 +1,7 @@
 .test {
-  margin-bottom: 50px;
   display: flex;
   flex-direction: column;
-  box-shadow: 0 0 12px 0px #00000078;
-  padding-bottom: 10px;
+  padding: 6.25rem 1rem;
 }
 
 .test__text-container {

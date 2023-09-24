@@ -1,7 +1,8 @@
 .country {
   display: flex;
   flex-direction: column;
-  margin-bottom: 50px;
+  padding: 2.75rem 1rem;
+
 }
 
 .country__container-text {
