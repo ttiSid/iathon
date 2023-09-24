@@ -1,7 +1,8 @@
 import logo from "../images/logo.png";
 
 function Footer() {
-  const currentYear = new Date(Date.now()).getFullYear();
+
+ const currentYear = new Date(Date.now()).getFullYear();
   return (
     <footer className="footer" id="footer">
       <div className="footer__container">

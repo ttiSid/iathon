@@ -1,0 +1,63 @@
+.header {
+}
+
+.header__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+
+}
+
+.header__discription {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.header__title {
+  width: 580px;
+  max-width: 100%;
+  margin: 0;
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: normal;
+}
+
+.header__paragraph {
+  width: 580px;
+  max-width: 100%;
+  margin: 0;
+  margin-top: 20px;
+  font-size: 1.5rem;
+
+}
+
+.header__link {
+  width: 90px;
+  right: 20px;
+  border-radius: 5px;
+  background-color: #1c3879;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  display: flex;
+  margin-top: 20px;
+  margin-left: 470px;
+
+}
+
+.header__link:hover {
+  background-color: #1c3879d6;
+  transition: ease 0.3s;
+}
+
+.header__image {
+  max-width: 720px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* primeiro break point em 1200px */

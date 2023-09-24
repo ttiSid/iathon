@@ -7,12 +7,14 @@ import "../index.css";
 
 function App() {
   return (
-    <>
+    <div className="page">
       <Nav />
-      <Header />
-      <Section />
+      <div className="content">
+        <Header />
+        <Section />
+      </div>
       <Footer />
-    </>
+    </div>
   );
 }
 

@@ -1,7 +1,7 @@
 function Section() {
     return(
         <>
-        <h1>Seção</h1>
+     
         </>
     )
 }
