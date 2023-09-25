@@ -7,18 +7,12 @@ export const types = [
   {
     id: 2,
     type: "Tipo 2",
-    text: `O Tipo 2 aparece quando o organismo não consegue usar adequadamente a
-    insulina que produz; ou não produz insulina suficiente para controla a
-    taxa de glicemia. Cerca de 90% das pessoas com diabetes têm o Tipo 2.
-    Ele se manifesta mais frequentemente em adultos, mas crianças também
-    podem apresentar. Dependendo da gravidade, ele pode ser controlado com
-    atividade física e planejamento alimentar. Em outros casos, exige o
-    uso de insulina e/ou outros medicamentos para controlar a glicose.`,
+    text: "O Tipo 2 aparece quando o organismo não consegue usar adequadamente a insulina que produz; ou não produz insulina suficiente para controla a taxa de glicemia. Cerca de 90% das pessoas com diabetes têm o Tipo 2. Ele se manifesta mais frequentemente em adultos, mas crianças também podem apresentar. Dependendo da gravidade, ele pode ser controlado com atividade física e planejamento alimentar. Em outros casos, exige o uso de insulina e/ou outros medicamentos para controlar a glicose.",
   },
   {
     id: 3,
     type: "Gestacional",
-    text: "O diabetes gestacional pode ocorrer em qualquer mulher e nem sempre os sintomas são identificáveis. Por isso, recomenda-se que todas as gestantes pesquisem, a partir da 24ª semana de gravidez (início do 6º mês), como está a glicose em jejum e, mais importante ainda, a glicemia após estímulo da ingestão de glicose, o chamado teste oral de tolerância a glicose.",
+    text: "Durante a gravidez, para permitir o desenvolvimento do bebê, a mulher passa por mudanças em seu equilíbrio hormonal. A placenta, por exemplo, é uma fonte importante de hormônios que reduzem a ação da insulina, responsável pela captação e utilização da glicose pelo corpo. O pâncreas, consequentemente, aumenta a produção de insulina para compensar este quadro. O diabetes gestacional pode ocorrer em qualquer mulher e nem sempre os sintomas são identificáveis. Por isso, recomenda-se que todas as gestantes pesquisem, a partir da 24ª semana de gravidez (início do 6º mês), como está a glicose em jejum e, mais importante ainda, a glicemia após estímulo da ingestão de glicose, o chamado teste oral de tolerância a glicose.",
   },
   {
     id: 4,
