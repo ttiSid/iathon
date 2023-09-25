@@ -3,8 +3,7 @@
   flex-direction: column;
   padding: 2.75rem 1rem;
   gap: 2rem;
-  background-color: #ebf4ff;
-  height: 380px;
+  /* background-color: #ebf4ff; */
   justify-content: space-between;
 }
 
@@ -22,11 +21,17 @@
 }
 
 .types__paragraph {
+  display: flex;
+  align-items: center;
   max-width: 980px;
+  height: 300px;
   font-size: 1.4rem;
   line-height: 134%;
-  text-align: center;
+  text-align: justify;
   margin: 0;
+}
+
+.types__carousel {
 }
 
 .types__list {
