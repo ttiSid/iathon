@@ -4,9 +4,9 @@ export default function Ia() {
   const listItems = iaNaDiabetes.map((item) => {
     return (
       <li className="ia__item" key={item.id}>
-        <img className="item__image" src={item.img} alt={item.alt} />
+        <img className="ia__image" src={item.img} alt={item.alt} />
 
-        <p className="item__text">{item.text}</p>
+        <p className="ia__text">{item.text}</p>
       </li>
     );
   });
