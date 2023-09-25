@@ -11,7 +11,7 @@ import "../index.css";
 
 function App() {
   return (
-    <div className="page">
+    <>
       <Nav />
       <div className="content">
         <Header />
@@ -22,7 +22,7 @@ function App() {
         <Test />
       </div>
       <Footer />
-    </div>
+    </>
   );
 }
 

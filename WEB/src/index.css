@@ -19,7 +19,6 @@ body {
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.331);
 }
 
-@import url(blocks/page.css);
 @import url(blocks/nav.css);
 @import url(blocks/header.css);
 @import url(blocks/footer.css);
