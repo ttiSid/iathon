@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 import { types } from "../mock/types";
 import imageType2 from "../images/image_type2.png";
+import imageTYpe1 from "../images/image_type1.png"
+import imageGestational from "../images/image_gestational.png"
+import imagePre from "../images/image_pre_diabetes.png"
+
 
 function Types() {
   const [type1, type2, gestational, prediabetes] = types;
@@ -45,7 +49,7 @@ function Types() {
             >
               <img
                 className="types__item-image"
-                src={imageType2}
+                src={imageTYpe1}
                 alt="imagem de um glicosimetro"
               ></img>
               {type1.type}
@@ -79,7 +83,7 @@ function Types() {
             >
               <img
                 className="types__item-image"
-                src={imageType2}
+                src={imageGestational}
                 alt="imagem de um glicosimetro"
               ></img>
               Gestacional
@@ -96,7 +100,7 @@ function Types() {
             >
               <img
                 className="types__item-image"
-                src={imageType2}
+                src={imagePre}
                 alt="imagem de um glicosimetro"
               ></img>
               Pré-diabetes
