@@ -2,7 +2,6 @@
   width: 100%;
   background-color: #EBF4FF;
   display: flex;
-  gap: 1.8rem;
   flex-wrap: wrap;
   flex-direction: column;
   align-content: center;
@@ -12,28 +11,29 @@
 }
 
 .world__title {
+  font-size: 3.12rem;
+  line-height: 76%;
   margin: 0;
-  color: #000000;
-  font-size: 2rem;
-  line-height: 2.2rem;
 }
 
 .world__paragraph {
   margin: 0;
   color: #000000;
   max-width: 920px;
-  font-size: 1.12rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.31rem;
+  font-size: 1.62rem;
+  line-height: 134%;
+  text-align: center;
+  margin: 0;
+  margin-top: 30px;
 }
 
 .world__list {
   display: flex;
   list-style: none;
   column-gap: 3.12rem;
-  padding: 0;
-  margin: 0;
+  padding: 0 10px;
+  margin: 30px 0 0 0;
+
 
 }
 
