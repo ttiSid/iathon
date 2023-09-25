@@ -10,6 +10,11 @@ function Nav() {
           alt="logo do site IATHON IA no diabetes"
         ></img>
         <ul className="nav__menu">
+        <li>
+            <a className="nav__button" href="#header">
+              INICIO
+            </a>
+          </li>
           <li>
             <a className="nav__button" href="#world">
               MUNDO
@@ -17,7 +22,7 @@ function Nav() {
           </li>
           <li>
             <a className="nav__button" href="#ia">
-              IA NA DIABETES
+              IA NO DIABETES
             </a>
           </li>
           <li>
