@@ -72,3 +72,41 @@
 }
 
 /* primeiro break point em 1200px */
+
+@media screen and (max-width: 1240px) {
+  .header {
+    height: 550px;
+  }
+
+  .header__title {
+    font-size: 2.5rem;
+  }
+
+  .header__paragraph {
+    font-size: 1.3rem;
+  }
+
+  .header__link {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+
+  .header {
+    height: 450px;
+  }
+  .header__title {
+    font-size: 2rem;
+  }
+
+  .header__paragraph {
+    font-size: 1rem;
+  }
+
+  .header__link {
+    margin-right: 10px;
+    font-size: 0.6rem;
+    padding: 0.4rem;
+  }
+}

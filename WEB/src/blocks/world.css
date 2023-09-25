@@ -40,9 +40,8 @@
 .world__item {
   display: flex;
   flex-direction: row;
-  gap: 0.8rem;
-  padding: 1rem 3rem;
-  display: flex;
+  width: 260px;
+  height: 100px;
   justify-content: space-around;
   align-items: center;
   background-color: #eae3d2;
@@ -69,4 +68,46 @@
   background-color: black;
   width: 54px;
   height: 54px;
+}
+
+@media screen and (max-width: 1240px) {
+
+  .world__title {
+    font-size: 2.5rem;
+  }
+
+  .world__paragraph {
+    width: 730px;
+    font-size: 1.3rem;
+  }
+
+  .world__list {
+    column-gap: 2.5rem;
+  }
+
+  .world__item {
+    flex-direction: column;
+    width: 200px;
+    height: 190px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+
+  .world__title {
+    font-size: 2rem;
+  }
+
+ .world__paragraph {
+    font-size: 1rem;
+  }
+
+  .world__list {
+    column-gap: 1.7rem;
+  }
+
+  .world__item {
+    width: 165px;
+    height: 155px;
+  }
 }
