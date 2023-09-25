@@ -1,6 +1,6 @@
 function World() {
   return (
-    <section className="world">
+    <section className="world" id="world">
       <h2 className="world__title">Números do Diabetes no Mundo</h2>
       <p className="world__paragraph">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod

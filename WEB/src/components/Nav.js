@@ -11,7 +11,7 @@ function Nav() {
         ></img>
         <ul className="nav__menu">
           <li>
-            <a className="nav__button" href="#">
+            <a className="nav__button" href="#world">
               MUNDO
             </a>
           </li>
@@ -21,17 +21,17 @@ function Nav() {
             </a>
           </li>
           <li>
-            <a className="nav__button" href="#">
+            <a className="nav__button" href="#types">
               TIPOS
             </a>
           </li>
           <li>
-            <a className="nav__button" href="#">
+            <a className="nav__button" href="#country">
               BRASIL
             </a>
           </li>
           <li>
-            <a className="nav__button" href="#">
+            <a className="nav__button" href="#test">
               TESTE
             </a>
           </li>

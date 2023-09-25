@@ -17,7 +17,7 @@ function Header() {
               monitorização contínua da glicemia podem fornecer substrato para
               algoritmos que executem diagnósticos mais precoces e acurados
             </p>
-            <a className="header__link" href="#">
+            <a className="header__link" href="#ia">
               Saiba mais...
             </a>
           </div>

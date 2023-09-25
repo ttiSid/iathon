@@ -1,7 +1,7 @@
 
 function Country() {
   return(
-    <section className="country">
+    <section className="country" id="country">
       <div className="country__container-text">
         <h2 className="country__title">No Brasil</h2>
         <p className="country__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquat enim ad minim.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquat enim ad minim.</p>

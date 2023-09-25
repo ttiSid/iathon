@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { types } from "../mock/types";
 import imageType2 from "../images/image_type2.png";
-import imageTYpe1 from "../images/image_type1.png"
+import imageType1 from "../images/image_type1.png"
 import imageGestational from "../images/image_gestational.png"
 import imagePre from "../images/image_pre_diabetes.png"
 
@@ -18,13 +18,13 @@ function Types() {
   }
 
   return (
-    <section className="types">
+    <section className="types" id="types">
       <div className="types__container-text">
         <h2 className="types__title">
           {title === null ? "Tipos de Diabetes" : title}
         </h2>
         <p className="types__paragraph">
-          {text === null ? "Selecione um tipo para saber mais" : text}
+          {text === null ? "Selecione abaixo um tipo do diabetes para saber mais" : text}
           {/* O Tipo 2 aparece quando o organismo não consegue usar adequadamente a
           insulina que produz; ou não produz insulina suficiente para controla a
           taxa de glicemia. Cerca de 90% das pessoas com diabetes têm o Tipo 2.
@@ -49,8 +49,8 @@ function Types() {
             >
               <img
                 className="types__item-image"
-                src={imageTYpe1}
-                alt="imagem de um glicosimetro"
+                src={imageType1}
+                alt="imagem de uma gota de sangue com um símbolo de positivo no centro"
               ></img>
               {type1.type}
             </button>
@@ -84,7 +84,7 @@ function Types() {
               <img
                 className="types__item-image"
                 src={imageGestational}
-                alt="imagem de um glicosimetro"
+                alt="imagem de uma gestante e ao lado uma gota de sangue com simbolo de positivo"
               ></img>
               Gestacional
             </button>
@@ -101,7 +101,7 @@ function Types() {
               <img
                 className="types__item-image"
                 src={imagePre}
-                alt="imagem de um glicosimetro"
+                alt="imagem de um glicosímetro coletando sangue da ponta do dedo indicador"
               ></img>
               Pré-diabetes
             </button>
