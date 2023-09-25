@@ -2,7 +2,7 @@ export const types = [
   {
     id: 1,
     type: "Tipo 1",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vestibulum eu dui ac vulputate. Vestibulum sit amet convallis nibh. In augue lectus, sodales non mollis eu, vulputate non enim. Sed faucibus laoreet nisi ac semper. Pellentesque vel risus ornare, semper eros quis, ultrices lacus.",
+    text: "Em algumas pessoas, o sistema imunológico ataca equivocadamente as células beta. Logo, pouca ou nenhuma insulina é liberada para o corpo. Como resultado, a glicose fica no sangue, em vez de ser usada como energia. Esse é o processo que caracteriza o Tipo 1 de diabetes, que concentra entre 5 e 10% do total de pessoas com a doença. O Tipo 1 aparece geralmente na infância ou adolescência, mas pode ser diagnosticado em adultos também. Essa variedade é sempre tratada com insulina, medicamentos, planejamento alimentar e atividades físicas, para ajudar a controlar o nível de glicose no sangue.",
   },
   {
     id: 2,
@@ -18,11 +18,11 @@ export const types = [
   {
     id: 3,
     type: "Gestacional",
-    text: "Gestacional Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vestibulum eu dui ac vulputate. Vestibulum sit amet convallis nibh. In augue lectus, sodales non mollis eu, vulputate non enim. Sed faucibus laoreet nisi ac semper. Pellentesque vel risus ornare, semper eros quis, ultrices lacus.",
+    text: "O diabetes gestacional pode ocorrer em qualquer mulher e nem sempre os sintomas são identificáveis. Por isso, recomenda-se que todas as gestantes pesquisem, a partir da 24ª semana de gravidez (início do 6º mês), como está a glicose em jejum e, mais importante ainda, a glicemia após estímulo da ingestão de glicose, o chamado teste oral de tolerância a glicose.",
   },
   {
     id: 4,
     type: "Pré-diabetes",
-    text: "Pré-diabetes Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vestibulum eu dui ac vulputate. Vestibulum sit amet convallis nibh. In augue lectus, sodales non mollis eu, vulputate non enim. Sed faucibus laoreet nisi ac semper. Pellentesque vel risus ornare, semper eros quis, ultrices lacus.",
+    text: "O termo pré-diabetes é usado quando os níveis de glicose no sangue estão mais altos do que o normal, mas não o suficiente para um diagnóstico de Diabetes Tipo 2. Obesos, hipertensos e pessoas com alterações nos lipídios estão no grupo de alto risco. É importante destacar que 50% dos pacientes nesse estágio ‘pré’ vão desenvolver a doença. O pré-diabetes é especialmente importante por ser a única etapa que ainda pode ser revertida ou mesmo que permite retardar a evolução para o diabetes e suas complicações. Por que existe essa preocupação? Muitos pacientes, ao serem comunicados de que têm pré-diabetes, não enxergam ali uma oportunidade. Deixam para ‘cuidar’ quando o problema se agravar. Só que o pré-diabetes pode prejudicar nervos e artérias, favorecendo diversos outros males, a exemplo de infarto e derrames.",
   },
 ];
