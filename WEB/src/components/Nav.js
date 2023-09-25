@@ -16,7 +16,7 @@ function Nav() {
             </a>
           </li>
           <li>
-            <a className="nav__button" href="#">
+            <a className="nav__button" href="#ia">
               IA NA DIABETES
             </a>
           </li>

@@ -7,7 +7,6 @@ import Types from "../contains/Types";
 import Country from "../contains/Country";
 import Test from "../contains/Test";
 
-
 import "../index.css";
 
 function App() {
@@ -19,8 +18,8 @@ function App() {
         <World />
         <Ia />
         <Types />
-        <Test />
         <Country />
+        <Test />
       </div>
       <Footer />
     </div>
