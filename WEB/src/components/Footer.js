@@ -11,7 +11,7 @@ function Footer() {
           src={logo}
           alt="Logo iathon IA no Diabetes"
         ></img>
-        <div>
+        <div className="footer__container-about">
           <p className="footer__copyright">
             &copy;
             {`${currentYear}. Projeto desenvolvido por: `}
