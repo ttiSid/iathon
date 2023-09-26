@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   gap: 1.5rem;
-  padding: 6.25rem 1rem;
+  padding: 3.12rem 1rem;
   background-color: #1c3879;
 }
 
@@ -85,6 +85,34 @@
   .ia__text {
     font-size: 1.1rem;
   }
+  .ia__image {
+    width: 300px;
+  }
 
+}
+
+@media screen and (max-width: 980px) {
+  .ia__title {
+    width: 740px;
+    font-size: 2rem;
+  }
+
+  .ia__authors{
+    font-size: .8rem;
+  }
+
+  .ia__image {
+    width: 250px;
+  }
+
+  .ia__text {
+  font-size: .9rem;
+  line-height: 1.4rem;
+
+  }
+
+  .ia__quote {
+  font-size: .8rem;
+  }
 }
 

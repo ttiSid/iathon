@@ -49,3 +49,21 @@
   opacity: 0.5;
   transition: ease-in 0.3s;
 }
+
+@media screen and (max-width: 980px) {
+ .footer__container-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center ;
+
+ }
+
+ .footer__team {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: .5rem;
+  column-gap: 3rem;
+  margin: 0;
+
+ }
+}

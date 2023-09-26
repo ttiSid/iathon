@@ -1,7 +1,7 @@
 .test {
   display: flex;
   flex-direction: column;
-  padding: 6.25rem 1rem;
+  padding: 3.12rem 1rem;
 }
 
 .test__text-container {
@@ -37,4 +37,32 @@
   height: 460px;
   background-color: #d9d9d9;
   box-shadow: 0 0 12px 0px #00000078;
+}
+
+@media screen and (max-width: 1240px) {
+
+  .test__title {
+    font-size: 2.5rem;
+  }
+
+  .test__paragraph {
+    width: 730px;
+    font-size: 1.3rem;
+  }
+
+}
+
+@media screen and (max-width: 980px) {
+  .test__title {
+    font-size: 2rem;
+  }
+
+  .test__paragraph {
+    font-size: 1rem;
+    line-height: 1.4rem;
+    max-width: 740px;
+    height: 80px;
+  }
+
+
 }
