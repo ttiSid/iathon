@@ -24,7 +24,7 @@ function Types() {
           {title === null ? "Tipos de Diabetes" : title}
         </h2>
         <p className="types__paragraph">
-          {text === null ? "Selecione abaixo um tipo do diabetes para saber mais" : text}
+          {text === null ? "Selecione um tipo do diabetes para saber mais" : text}
           {/* O Tipo 2 aparece quando o organismo não consegue usar adequadamente a
           insulina que produz; ou não produz insulina suficiente para controla a
           taxa de glicemia. Cerca de 90% das pessoas com diabetes têm o Tipo 2.

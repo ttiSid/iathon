@@ -14,7 +14,6 @@
   font-size: 3.12rem;
   line-height: 76%;
   margin: 0;
-
 }
 
 .test__paragraph {
@@ -65,4 +64,21 @@
   }
 
 
+}
+
+@media screen and (max-width: 768px) {
+  .test__paragraph {
+    width: 550px;
+    font-size: 1.2rem;
+    height: 100%;
+  }
+
+  .test__container {
+    padding-top: 30px;
+  }
+
+  .test__input-container {
+    width: 550px;
+    height: 350px;
+  }
 }

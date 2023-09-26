@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   padding: 3.12rem 1rem;
-  background-color: #ebf4ff;
 }
 
 .country__container-text {
@@ -118,5 +117,26 @@
   .country__text {
     font-size: 1.2rem;
   }
+}
+
+@media screen and (max-width: 768px) {
+  .country__paragraph {
+    width: 550px;
+    font-size: 1.2rem;
+    height: 100%;
+  }
+
+  .country__item {
+    width: 120px;
+    height: 190px;
+  }
+
+  .country__item-percentage {
+    width: 60px;
+    height: 60px;
+    
+  }
+
+
 }
 
