@@ -1,0 +1,233 @@
+[
+  {
+    "metric_name": "Number",
+    "year": 2010,
+    "val": 1961971,
+    "upper": 2277809,
+    "lower": 1684942
+  },
+  {
+    "metric_name": "Percent",
+    "year": 2010,
+    "val": "0.031",
+    "upper": "0.034",
+    "lower": "0.029"
+  },
+  {
+    "metric_name": "Rate",
+    "year": 2010,
+    "val": "989.25",
+    "upper": "1148.50",
+    "lower": "849.57"
+  },
+  {
+    "metric_name": "Number",
+    "year": 2012,
+    "val": 2091382,
+    "upper": 2432506,
+    "lower": 1786702
+  },
+  {
+    "metric_name": "Percent",
+    "year": 2012,
+    "val": "0.033",
+    "upper": "0.036",
+    "lower": "0.03"
+  },
+  {
+    "metric_name": "Rate",
+    "year": 2012,
+    "val": "1031.16",
+    "upper": "1199.35",
+    "lower": "880.93"
+  },
+  {
+    "metric_name": "Number",
+    "year": 2009,
+    "val": 1903709,
+    "upper": 2203816,
+    "lower": 1635655
+  },
+  {
+    "metric_name": "Percent",
+    "year": 2009,
+    "val": "0.031",
+    "upper": "0.033",
+    "lower": "0.028"
+  },
+  {
+    "metric_name": "Rate",
+    "year": 2009,
+    "val": "971.19",
+    "upper": "1124.29",
+    "lower": "834.44"
+  },
+  {
+    "metric_name": "Number",
+    "year": 2011,
+    "val": 2034011,
+    "upper": 2362373,
+    "lower": 1742104
+  },
+  {
+    "metric_name": "Percent",
+    "year": 2011,
+    "val": "0.032",
+    "upper": "0.035",
+    "lower": "0.03"
+  },
+  {
+    "metric_name": "Rate",
+    "year": 2011,
+    "val": "1013.98",
+    "upper": "1177.67",
+    "lower": "868.46"
+  },
+  {
+    "metric_name": "Number",
+    "year": 2013,
+    "val": 2160704,
+    "upper": 2521266,
+    "lower": 1850539
+  },
+  {
+    "metric_name": "Percent",
+    "year": 2013,
+    "val": "0.034",
+    "upper": "0.037",
+    "lower": "0.031"
+  },
+  {
+    "metric_name": "Rate",
+    "year": 2013,
+    "val": "1054.06",
+    "upper": "1229.95",
+    "lower": "902.75"
+  },
+  {
+    "metric_name": "Number",
+    "year": 2015,
+    "val": 2297799,
+    "upper": 2690085,
+    "lower": 1958048
+  },
+  {
+    "metric_name": "Percent",
+    "year": 2015,
+    "val": "0.036",
+    "upper": "0.039",
+    "lower": "0.033"
+  },
+  {
+    "metric_name": "Rate",
+    "year": 2015,
+    "val": "1098.53",
+    "upper": "1286.07",
+    "lower": "936.10"
+  },
+  {
+    "metric_name": "Number",
+    "year": 2014,
+    "val": 2225360,
+    "upper": 2608139,
+    "lower": 1897605
+  },
+  {
+    "metric_name": "Percent",
+    "year": 2014,
+    "val": "0.035",
+    "upper": "0.038",
+    "lower": "0.032"
+  },
+  {
+    "metric_name": "Rate",
+    "year": 2014,
+    "val": "1074.53",
+    "upper": "1259.36",
+    "lower": "916.27"
+  },
+  {
+    "metric_name": "Number",
+    "year": 2017,
+    "val": 2428198,
+    "upper": 2850700,
+    "lower": 2057654
+  },
+  {
+    "metric_name": "Percent",
+    "year": 2017,
+    "val": "0.037",
+    "upper": "0.041",
+    "lower": "0.034"
+  },
+  {
+    "metric_name": "Rate",
+    "year": 2017,
+    "val": "1139.44",
+    "upper": "1337.69",
+    "lower": "965.56"
+  },
+  {
+    "metric_name": "Number",
+    "year": 2016,
+    "val": 2382515,
+    "upper": 2778030,
+    "lower": 2035939
+  },
+  {
+    "metric_name": "Percent",
+    "year": 2016,
+    "val": "0.037",
+    "upper": "0.04",
+    "lower": "0.034"
+  },
+  {
+    "metric_name": "Rate",
+    "year": 2016,
+    "val": "1128.17",
+    "upper": "1315.45",
+    "lower": "964.06"
+  },
+  {
+    "metric_name": "Number",
+    "year": 2019,
+    "val": 2564212,
+    "upper": 2996547,
+    "lower": 2173111
+  },
+  {
+    "metric_name": "Percent",
+    "year": 2019,
+    "val": "0.039",
+    "upper": "0.043",
+    "lower": "0.036"
+  },
+  {
+    "metric_name": "Rate",
+    "year": 2019,
+    "val": "1183.49",
+    "upper": "1383.03",
+    "lower": "1002.98"
+  },
+  {
+    "metric_name": "Number",
+    "year": 2018,
+    "val": 2497570,
+    "upper": 2928118,
+    "lower": 2119829
+  },
+  {
+    "metric_name": "Percent",
+    "year": 2018,
+    "val": "0.038",
+    "upper": "0.042",
+    "lower": "0.035"
+  },
+  {
+    "metric_name": "Rate",
+    "year": 2018,
+    "val": "1162.07",
+    "upper": "1362.39",
+    "lower": "986.31"
+  }
+]
