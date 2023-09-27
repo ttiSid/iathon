@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { types } from "../mock/types";
 import imageType2 from "../images/image_type2.png";
 import imageType1 from "../images/image_type1.png"
@@ -11,27 +11,30 @@ function Types() {
 
   const [text, setText] = useState(null);
   const [title, setTitle] = useState(null);
+  const [activeClass, setActiveClass] = useState("");
 
   function changeType(title, text) {
     setTitle(title);
     setText(text);
   }
 
+  useEffect(() => {
+    setActiveClass("inactive");
+    setTimeout(() => {
+      setTitle(title);
+      setText(text);
+      setActiveClass("active");
+    }, 300);
+  }, [title, text]);
+
   return (
     <section className="types" id="types">
       <div className="types__container-text">
-        <h2 className="types__title">
+        <h2 className={`types__title ${activeClass}`}>
           {title === null ? "Tipos de Diabetes" : title}
         </h2>
-        <p className="types__paragraph">
-          {text === null ? "Selecione um tipo do diabetes para saber mais" : text}
-          {/* O Tipo 2 aparece quando o organismo não consegue usar adequadamente a
-          insulina que produz; ou não produz insulina suficiente para controla a
-          taxa de glicemia. Cerca de 90% das pessoas com diabetes têm o Tipo 2.
-          Ele se manifesta mais frequentemente em adultos, mas crianças também
-          podem apresentar. Dependendo da gravidade, ele pode ser controlado com
-          atividade física e planejamento alimentar. Em outros casos, exige o
-          uso de insulina e/ou outros medicamentos para controlar a glicose. */}
+        <p className={`types__paragraph ${activeClass}`}>
+          {text === null ? "Selecione um tipo do diabetes para saber mais." : text}
         </p>
       </div>
       <div className="types__carousel">

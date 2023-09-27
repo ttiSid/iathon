@@ -60,6 +60,8 @@
   width: 30px;
   position: absolute;
   right: 50px;
+  transition-duration: 1s
+
 }
 
 .nav__toggle-bar {
@@ -67,6 +69,8 @@
   height: 3px;
   width: 30px;
   transition: transform 0.2s ease;
+  transition-duration: 1s
+
 }
 
 .nav__toggle-bar:first-child {
@@ -77,22 +81,45 @@
   transform: translateY(4px);
 }
 
+
+@media screen and (max-width: 1080px) {
+  .nav__container {
+    gap: 5.5rem;
+  }
+  .nav__menu {
+    gap: 2.5rem;
+
+  }
+}
+
+
 @media screen and (max-width: 980px) {
   .nav__container {
     gap: 4.5rem;
   }
   .nav__menu {
     gap: 2rem;
+
   }
 }
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 890px) {
   .nav__container {
     gap: 3rem;
   }
 
   .nav__menu {
-    gap: 1.5rem;
+    gap: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .nav__container {
+    gap: 2.5rem;
+  }
+
+  .nav__menu {
+    gap: 1.1rem;
   }
 }
 
@@ -110,19 +137,14 @@
     height: 100vh;
     padding: 20px 0;
     background-color: #05070bf3;
-    width: 40%;
+    width: 60%;
     z-index: 1;
-  }
 
-  .nav__button {
-    padding: 5px 35px;
   }
 
   .nav__button:hover {
-    background: #9ebbfa;
-    color: black;
-    transition: 0.2s;
-    font-size: 1.2rem;
+    transition: .2s;
+    font-size: 1.1rem;
     border-radius: 5px;
   }
 
