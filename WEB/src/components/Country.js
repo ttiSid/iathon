@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import Chart from "../components/Chart";
+import Chart from "./Chart";
 
 function Country() {
   /*Precisamos saber qual o tipo de dado é esse*/

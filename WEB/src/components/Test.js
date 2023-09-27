@@ -12,7 +12,7 @@ function Test() {
       <div className="test__container">
         <iframe
           className="test__input-container"
-          src="https://iathon-diabetes-prediction.streamlit.app/"
+          src="https://iathon-diabetes-prediction.streamlit.app/?embedded=true"
         ></iframe>
       </div>
     </section>
