@@ -35,6 +35,7 @@
   gap: 3rem;
   list-style: none;
   margin: 0;
+
 }
 
 .nav__button {
@@ -129,17 +130,23 @@
   }
 
   .nav__menu {
-    display: none;
     flex-direction: column;
     position: absolute;
     top: 8vh;
     left: 0;
-    height: 100vh;
     padding: 20px 0;
     background-color: #05070bf3;
     width: 60%;
     z-index: 1;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.5s ease-in-out;
+    visibility: hidden;
+  }
 
+  .nav__menu.nav__menu--open {
+    height: 100vh;
+    visibility: visible;
   }
 
   .nav__button:hover {
