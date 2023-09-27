@@ -3,31 +3,6 @@ import ApexChart from "react-apexcharts";
 export default function Chart(props) {
   const { valores, anos, type, titleText } = props;
 
-  /* let lineChart = {
-    options: {
-      chart: {
-        type: type,
-        zoom: {
-          enabled: false,
-        },
-      },
-      xaxis: {
-        categories: anos,
-      },
-    },
-    title: {
-      text: titleText,
-      align: "left",
-    },
-    series: [
-      {
-        name: "Definir",
-        data: valores,
-      },
-    ],
-  }; */
-
-  /* console.log(titleText); */
   const lineChart = {
     series: [
       {

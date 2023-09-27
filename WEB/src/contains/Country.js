@@ -38,7 +38,7 @@ function Country() {
           minim.
         </p>
       </div>
-      <ul className="country__list">
+      <ul className="country__charts">
         <Chart
           type="line"
           titleText="Precisamos definir"
