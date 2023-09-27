@@ -1,8 +1,26 @@
-import imageHeader from "../images/image_header.jpg";
+import React, { useState, useEffect } from 'react';
+import imageHeader1 from '../images/image_header.jpg';
+import imageHeader2 from '../images/image_header2.jpg';
+import imageHeader3 from '../images/image_header3.jpg';
 
 function Header() {
+  const [currentImage, setCurrentImage] = useState(imageHeader1);
+
+  useEffect(() => {
+    const imageArray = [imageHeader1, imageHeader2, imageHeader3];
+    let currentIndex = 0;
+    const changeImage = () => {
+      currentIndex = (currentIndex + 1) % imageArray.length;
+      setCurrentImage(imageArray[currentIndex]);
+    };
+    const interval = setInterval(changeImage, 3000);
+    return () => {
+      clearInterval(interval);
+    };
+  }, []);
+
   return (
-    <header className="header" id="header">
+    <header className="header">
       <div className="header__container">
         <div className="header__description">
           <div className="header__wrap">
@@ -23,9 +41,10 @@ function Header() {
           </div>
         </div>
         <div
-          className="header__image"
-          /*           src={imageHeader}
-          alt="imagem de uma mão de robô tocando linhas de fibra óptica" */
+           className="header__image"
+           style={{
+             backgroundImage: `url(${currentImage})`,
+             transition: 'background-image 0.5s ease-in-out',}}
         ></div>
       </div>
     </header>
@@ -33,3 +52,4 @@ function Header() {
 }
 
 export default Header;
+
