@@ -37,7 +37,7 @@
 }
 
 .ia__text {
-  color: #c9c9c9;
+  color: #e1e1e1;
   display: flex;
   align-items: center;
   font-size: 1.3rem;
@@ -75,6 +75,7 @@
   .ia__title {
     font-size: 2.3rem;
   }
+
   .ia__authors {
     font-size: 0.9rem;
   }
@@ -91,6 +92,7 @@
     width: 740px;
     font-size: 2rem;
   }
+
   .ia__authors {
     font-size: 0.8rem;
   }
