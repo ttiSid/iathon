@@ -72,13 +72,34 @@
     font-size: 1.2rem;
     height: 100%;
   }
-
   .test__container {
     padding-top: 30px;
   }
-
   .test__input-container {
     width: 550px;
     height: 350px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .test__title {
+    font-size: 1.8rem;
+  }
+  .test__paragraph {
+    max-width: 430px;
+  }
+  .test__input-container {
+    width: 420px;
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .test__title {
+    font-size: 1.3rem;
+  }
+  .test__paragraph {
+    font-size: 1rem;
+    width: 300px;
   }
 }

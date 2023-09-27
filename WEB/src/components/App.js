@@ -1,11 +1,11 @@
 import Nav from "./Nav";
 import Header from "./Header";
 import Ia from "./IA";
-import World from "../contains/World";
+import World from "./World";
 import Footer from "./Footer";
-import Types from "../contains/Types";
-import Country from "../contains/Country";
-import Test from "../contains/Test";
+import Types from "./Types";
+import Country from "./Country";
+import Test from "./Test";
 
 import "../index.css";
 

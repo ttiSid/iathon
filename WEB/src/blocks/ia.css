@@ -37,7 +37,7 @@
 }
 
 .ia__text {
-  color: #fff;
+  color: #c9c9c9;
   display: flex;
   align-items: center;
   font-size: 1.3rem;
@@ -48,12 +48,11 @@
 }
 
 .ia__title {
-  color: #fff;
+  color: #c9c9c9;
   font-size: 2.5rem;
   text-align: center;
   margin: 0;
   width: 960px;
-
 }
 
 .ia__authors {
@@ -65,7 +64,7 @@
 }
 
 .ia__quote {
-  color: #fff;
+  color: #c9c9c9;
   font-size: 1rem;
   opacity: 0.8;
   margin: 0;
@@ -73,22 +72,18 @@
 }
 
 @media screen and (max-width: 1240px) {
-
   .ia__title {
     font-size: 2.3rem;
   }
-
-  .ia__authors{
-    font-size: .9rem;
+  .ia__authors {
+    font-size: 0.9rem;
   }
-
   .ia__text {
     font-size: 1.1rem;
   }
   .ia__image {
     width: 300px;
   }
-
 }
 
 @media screen and (max-width: 980px) {
@@ -96,23 +91,18 @@
     width: 740px;
     font-size: 2rem;
   }
-
-  .ia__authors{
-    font-size: .8rem;
+  .ia__authors {
+    font-size: 0.8rem;
   }
-
   .ia__image {
     width: 250px;
   }
-
   .ia__text {
-  font-size: .9rem;
-  line-height: 1.4rem;
-
+    font-size: 0.9rem;
+    line-height: 1.4rem;
   }
-
   .ia__quote {
-  font-size: .8rem;
+    font-size: 0.8rem;
   }
 }
 
@@ -120,19 +110,58 @@
   .ia__title {
     width: 550px;
   }
-
   .ia__item {
     display: grid;
     justify-items: center;
-
     padding-top: 20px;
   }
-
   .ia__text {
     width: 550px;
   }
   .ia__quote {
     width: 500px;
-    font-size: .7rem;
-    }
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .ia__title {
+    max-width: 430px;
+    font-size: 1.8rem;
+  }
+  .ia__text{
+    width: 430px;
+  }
+  .ia__quote {
+    width: 430px;
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 520px) {
+.ia__title {
+  max-width: 300px;
+  font-size: 1.3rem;
+}
+
+.ia__items {
+  width: 320px;
+  align-items: center
+}
+  .ia__item {
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+.ia__text {
+  width: 300px;
+
+}
+.ia__quote {
+  width: 300px;
+  font-size: 0.7rem;
+}
+
 }
