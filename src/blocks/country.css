@@ -37,7 +37,6 @@
   justify-content: center;
   list-style: none;
   flex-wrap: wrap;
-  column-gap: 40px;
   margin: 0;
   padding: 0;
 }
@@ -125,21 +124,22 @@
   }
 }
 
+@media screen and (max-width: 670px) {
+  .country__chart {
+    width: 500px;
+    height: 500px;
+  }
+}
+
+
+
+
+
 @media screen and (max-width: 768px) {
   .country__paragraph {
     width: 550px;
     font-size: 1.2rem;
     height: 100%;
-  }
-
-  .country__item {
-    width: 120px;
-    height: 190px;
-  }
-
-  .country__item-percentage {
-    width: 60px;
-    height: 60px;
   }
 }
 
@@ -150,6 +150,11 @@
   .country__paragraph {
     max-width: 430px;
   }
+
+  .country__chart {
+    width: 450px;
+    height: 450px;
+}
 }
 
 @media screen and (max-width: 520px) {
@@ -161,11 +166,13 @@
     width: 280px;
   }
 
-  .country__list {
-    flex-direction: column;
-    align-items: center;
-  }
   .country__item {
     width: 300px;
   }
+
+  .country__chart {
+    width: 290px;
+    height: 290px;
+  }
 }
+

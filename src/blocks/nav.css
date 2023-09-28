@@ -104,7 +104,7 @@
   }
 }
 
-@media screen and (max-width: 890px) {
+@media screen and (max-width: 910px) {
   .nav__container {
     gap: 3rem;
   }
@@ -116,11 +116,11 @@
 
 @media screen and (max-width: 800px) {
   .nav__container {
-    gap: 2.5rem;
+    gap: 2.1rem;
   }
 
   .nav__menu {
-    gap: 1.1rem;
+    gap: 1rem;
   }
 }
 
