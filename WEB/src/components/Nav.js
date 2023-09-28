@@ -38,7 +38,8 @@ function Nav() {
           <span className="nav__toggle-bar"></span>
           <span className="nav__toggle-bar"></span>
         </button>
-        <ul className={`nav__menu ${isMenuOpen ? "nav__menu--open" : ""}`}>
+        <ul className={`nav__menu ${isMenuOpen ? "nav__menu--open" : "nav__menu-closed"}`}>
+
           <li>
             <a className="nav__button" href="#header" onClick={toggleMenu}>
               INICIO

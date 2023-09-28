@@ -15,9 +15,8 @@ body {
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
   background-color: #f2f2f2;
-  /* background-color: rgb(255, 255, 255); */
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.331);
-}
+  }
 
 html {
   scroll-behavior: smooth;
