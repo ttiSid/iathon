@@ -37,7 +37,6 @@
   justify-content: center;
   list-style: none;
   flex-wrap: wrap;
-  column-gap: 40px;
   margin: 0;
   padding: 0;
 }
@@ -176,3 +175,4 @@
     height: 290px;
   }
 }
+
