@@ -43,8 +43,8 @@ export default function Chart(props) {
     <ApexChart
       options={lineChart.options}
       series={lineChart.series}
-      width={"300px"}
-      height={"300px"}
+      width={"290px"}
+      height={"290px"}
     />
   );
 }

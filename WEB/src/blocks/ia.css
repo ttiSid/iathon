@@ -139,27 +139,31 @@
 }
 
 @media screen and (max-width: 520px) {
+  .ia {
+    padding: 3.12rem 0;
+    width: 280px;
+  }
 .ia__title {
-  max-width: 290px;
+  max-width: 270px;
   font-size: 1.3rem;
 }
 
 .ia__items {
-  width: 300px;
+  width: 280px;
   align-items: center
 }
   .ia__item {
-    width: 290px;
+    width: 280px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
 
 .ia__text {
-  width: 280px;
+  width: 270px;
 }
 .ia__quote {
-  width: 280px;
+  width: 270px;
   font-size: 0.7rem;
 }
 }
