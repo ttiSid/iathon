@@ -2,29 +2,80 @@ import { useEffect, useState } from "react";
 import Chart from "./Chart";
 
 function Country() {
-  /*Precisamos saber qual o tipo de dado é esse*/
-  const [data, setData] = useState([]);
+  /*Dados de óbitos no Brasil por diabetes*/
+  const [obitosBr, setObitosBr] = useState([]);
 
   useEffect(() => {
-    /*Precisamos renomear esse json*/
-    fetch("./utils/data.json", {
+    fetch("./utils/obitos-por-diabetes-br.json", {
       headers: {
         Accept: "application/json",
       },
     })
       .then((res) => res.json())
-      .then((res) => setData(res));
+      .then((res) => setObitosBr(res));
   }, []);
 
   let anos = [];
-  let valores = [];
+  let obitos = [];
+  let percentuais = [];
 
-  data?.forEach((item) => {
+  obitosBr?.forEach((item) => {
     const ano = item.year;
     anos.push(ano);
-    const valor = item.val.toFixed(2);
-    valores.push(valor);
+    const obito = item.obitos;
+    obitos.push(obito);
+    const percentual = item.percent * 100;
+    percentuais.push(percentual.toFixed(2));
   });
+
+  let obitoChart = {
+    series: [
+      {
+        name: "Obitos",
+        type: "column",
+        data: obitos,
+      },
+      {
+        name: "Percentual",
+        type: "line",
+        data: percentuais,
+      },
+    ],
+    options: {
+      chart: {
+        height: 350,
+        type: "line",
+      },
+      stroke: {
+        width: [0, 6],
+      },
+      title: {
+        text: "Traffic Sources",
+      },
+      dataLabels: {
+        enabled: true,
+        enabledOnSeries: [1],
+      },
+      labels: anos,
+      xaxis: {
+        type: "year",
+      },
+      yaxis: [
+        {
+          title: {
+            text: "Número de óbitos por Diabetes no Brasil",
+          },
+        },
+        {
+          opposite: true,
+          title: {
+            text: "Percentual (%)",
+          },
+        },
+      ],
+    },
+  };
+  /* ---------------------------------------------------*/
 
   return (
     <section className="country" id="country">
@@ -39,34 +90,7 @@ function Country() {
         </p>
       </div>
       <ul className="country__charts">
-        <Chart
-          type="line"
-          titleText="Precisamos definir"
-          valores={valores}
-          anos={anos}
-        />
-        <Chart
-          type="line"
-          titleText="Precisamos definir"
-          valores={valores}
-          anos={anos}
-        />
-        <Chart
-          type="line"
-          titleText="Precisamos definir"
-          valores={valores}
-          anos={anos}
-        />
-        {/*         <li className="country__item">
-        </li>
-        <li className="country__item">
-          <h4 className="country__item-percentage">90%</h4>
-          <p className="country__text">Active users</p>
-        </li>
-        <li className="country__item">
-          <h4 className="country__item-percentage">80%</h4>
-          <p className="country__text">Paid users</p>
-        </li> */}
+        {<Chart series={obitoChart.series} options={obitoChart.options} />}
       </ul>
     </section>
   );
