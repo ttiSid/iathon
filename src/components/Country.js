@@ -50,7 +50,7 @@ function Country() {
         width: [0, 6],
       },
       title: {
-        text: "Traffic Sources",
+        text: "Óbitos por Diabetes no Brasil",
       },
       dataLabels: {
         enabled: true,
@@ -63,7 +63,7 @@ function Country() {
       yaxis: [
         {
           title: {
-            text: "Número de óbitos por Diabetes no Brasil",
+            text: "",
           },
         },
         {
