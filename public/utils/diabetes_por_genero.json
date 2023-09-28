@@ -1,4 +1,4 @@
 [
-  { "Genero": "Feminino", "Taxa de Diabetes (%)": 7.9 },
-  { "Genero": "Masculino", "Taxa de Diabetes (%)": 10.3 }
+  { "genero": "Feminino", "taxa_de_diabetes": 7.9 },
+  { "genero": "Masculino", "taxa_de_diabetes": 10.3 }
 ]
