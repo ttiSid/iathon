@@ -13,7 +13,7 @@ function Header() {
       currentIndex = (currentIndex + 1) % imageArray.length;
       setCurrentImage(imageArray[currentIndex]);
     };
-    const interval = setInterval(changeImage, 3000);
+    const interval = setInterval(changeImage, 4000);
     return () => {
       clearInterval(interval);
     };
@@ -44,7 +44,7 @@ function Header() {
            className="header__image"
            style={{
              backgroundImage: `url(${currentImage})`,
-             transition: 'background-image 0.5s ease-in-out',}}
+             transition: 'background-image 0.4s ease',}}
         ></div>
       </div>
     </header>

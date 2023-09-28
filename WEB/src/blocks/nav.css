@@ -143,6 +143,11 @@
     transition: height 0.5s ease-in-out;
     visibility: hidden;
   }
+  .nav__menu-closed {
+    height: 0;
+    transition: height 0.5s ease-in-out;
+    visibility: hidden;
+  }
 
   .nav__menu.nav__menu--open {
     height: 100vh;
