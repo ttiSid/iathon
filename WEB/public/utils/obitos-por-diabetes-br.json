@@ -1,0 +1,14 @@
+[
+  { "year": 2010, "obitos": 54877, "percent": 0.0, "Total": 54877 },
+  { "year": 2011, "obitos": 57876, "percent": 0.0546494889, "Total": 112753 },
+  { "year": 2012, "obitos": 56761, "percent": -0.0192653259, "Total": 169514 },
+  { "year": 2013, "obitos": 58017, "percent": 0.0221278695, "Total": 227531 },
+  { "year": 2014, "obitos": 57882, "percent": -0.0023269042, "Total": 285413 },
+  { "year": 2015, "obitos": 59641, "percent": 0.0303894129, "Total": 345054 },
+  { "year": 2016, "obitos": 61398, "percent": 0.0294595999, "Total": 406452 },
+  { "year": 2017, "obitos": 63486, "percent": 0.0340076224, "Total": 469938 },
+  { "year": 2018, "obitos": 65113, "percent": 0.0256276974, "Total": 535051 },
+  { "year": 2019, "obitos": 66711, "percent": 0.0245419501, "Total": 601762 },
+  { "year": 2020, "obitos": 75712, "percent": 0.1349252747, "Total": 677474 },
+  { "year": 2021, "obitos": 78258, "percent": 0.0336274303, "Total": 755732 }
+]

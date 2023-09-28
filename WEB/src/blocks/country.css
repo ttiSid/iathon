@@ -1,8 +1,13 @@
 .country {
   display: flex;
   flex-direction: column;
- 
+
   gap: 30px;
+}
+
+.country__chart {
+  width: 600px;
+  height: 600px;
 }
 
 .country__container-text {
@@ -162,8 +167,5 @@
   }
   .country__item {
     width: 300px;
-
   }
 }
-
-/* fork */
