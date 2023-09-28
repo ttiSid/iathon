@@ -90,16 +90,23 @@
   }
   .test__input-container {
     width: 420px;
-    
+
   }
 }
 
 @media screen and (max-width: 520px) {
+  .test {
+    padding: 3.12rem 0;
+  }
   .test__title {
     font-size: 1.3rem;
   }
   .test__paragraph {
     font-size: 1rem;
-    width: 300px;
+    width: 280px;
+  }
+  .test__input-container {
+    width: 270px;
+    height: 880px;
   }
 }
