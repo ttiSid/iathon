@@ -110,10 +110,16 @@
   .world__list {
     column-gap: 1rem;
     row-gap: 1rem;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
   }
 }
+
+/* @media screen and (max-width: 670px) {
+  .country__chart {
+    width: 500px;
+    height: 500px;
+  }
+} */
+
 
 @media screen and (max-width: 630px) {
   .world__title {
@@ -146,8 +152,8 @@
     column-gap: 0;
     row-gap: 0.5rem;
   }
-  .world__item {
-    width: 250px;
-    height: 160px;
+  .world__chart {
+    width: 290px;
+    height: 290px;
   }
 }
