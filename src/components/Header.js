@@ -1,23 +1,39 @@
-import React, { useState, useEffect } from 'react';
-import imageHeader1 from '../images/image_header.jpg';
-import imageHeader2 from '../images/image_header2.jpg';
-import imageHeader3 from '../images/image_header3.jpg';
+import React, { useState, useEffect } from "react";
+import imageHeader1 from "../images/image_header.jpg";
+import imageHeader2 from "../images/image_header2.jpg";
+import imageHeader3 from "../images/image_header3.jpg";
 
 function Header() {
-  const [currentImage, setCurrentImage] = useState(imageHeader1);
+  const imageArray = [
+    {
+      image: imageHeader1,
+      text: "Inteligência Artificial no diagnóstico de retinopatia diabética",
+      link: "https://portugues.medscape.com/verartigo/6508991?0=0=reg=1&1=reg=1",
+    },
+    {
+      image: imageHeader2,
+      text: "O exercício físico é fundamental para prevenção e tratamento do diabetes mellitus",
+      link: "https://diabetes.org.br/o-exercicio-fisico-e-fundamental-para-prevencao-e-tratamento-do-diabetes-mellitus/",
+    },
+    {
+      image: imageHeader3,
+      text: "Cresce o número de pessoas com diabetes nas Américas",
+      link: "https://diabetes.org.br/cresce-o-numero-de-pessoas-com-diabetes-nas-americas/",
+    },
+  ];
+
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const currentImageObj = imageArray[currentIndex];
 
   useEffect(() => {
-    const imageArray = [imageHeader1, imageHeader2, imageHeader3];
-    let currentIndex = 0;
-    const changeImage = () => {
-      currentIndex = (currentIndex + 1) % imageArray.length;
-      setCurrentImage(imageArray[currentIndex]);
-    };
-    const interval = setInterval(changeImage, 4000);
+    const interval = setInterval(() => {
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % imageArray.length);
+    }, 4000);
+
     return () => {
       clearInterval(interval);
     };
-  }, []);
+  }, [imageArray]);
 
   return (
     <header className="header" id="header">
@@ -40,16 +56,22 @@ function Header() {
             </a>
           </div>
         </div>
-        <div
-           className="header__image"
-           style={{
-             backgroundImage: `url(${currentImage})`,
-             transition: 'background-image 0.4s ease',}}
-        ></div>
+        <div className="header__image-container">
+          <a href={currentImageObj.link} target="_blanc">
+            <img
+              className="header__image"
+              src={currentImageObj.image}
+              alt={currentImageObj.text}
+              style={{}}
+            />
+            <div className="header__text-container">
+              <div className="header__image-text">{currentImageObj.text}</div>
+            </div>
+          </a>
+        </div>
       </div>
     </header>
   );
 }
 
 export default Header;
-

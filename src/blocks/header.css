@@ -1,177 +1,215 @@
-.header {
-  height: 650px;
-  padding-top: 8vh;
-}
-
-.header__container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1.5rem 0;
-  height: 100%;
-}
-
-.header__description {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  position: relative;
-  align-items: center;
-}
-
-.header__wrap {
-  display: flex;
-  flex-direction: column;
-  max-width: 567px;
-  gap: 2rem;
-}
-
-.header__title {
-  max-width: 100%;
-  padding: 0 10px;
-  font-size: 3rem;
-  font-weight: 700;
-  line-height: normal;
-  text-align: left;
-  margin: 0;
-}
-
-.header__paragraph {
-  max-width: 100%;
-  padding: 0 10px;
-  margin: 0;
-  font-size: 1.5rem;
-  font-weight: 400;
-  line-height: 1.7rem;
-  text-align: justify;
-}
-
-.header__link {
-  font-size: 0.8rem;
-  padding: 0.6rem;
-  width: fit-content;
-  border-radius: 5px;
-  background-color: #1c3879;
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-  display: flex;
-  align-self: flex-end;
-}
-
-.header__link:hover {
-  background-color: #1c3879d6;
-  transition: ease 0.3s;
-}
-
-.header__image {
-  object-fit: cover;
-  background-image: url(../images/image_header.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  box-shadow: -1px 1px 6px -1px;
-}
-@media screen and (max-width: 1240px) {
   .header {
-    height: 550px;
-  }
-  .header__title {
-    font-size: 2.5rem;
-  }
-  .header__paragraph {
-    font-size: 1.3rem;
+    height: 650px;
+    padding-top: 8vh;
   }
 
-  .header__link {
-    margin-right: 10px;
-  }
-}
-
-@media screen and (max-width: 1030px) {
-  .header {
-    height: 450px;
-  }
-  .header__title {
-    font-size: 2.3rem;
-  }
-  .header__paragraph {
-    font-size: 1rem;
-    line-height: 1.4rem;
-  }
-}
-
-@media screen and (max-width: 980px) {
-  .header__title {
-    font-size: 2.1rem;
-    text-align: left;
-  }
-  .header__link {
-    margin-right: 10px;
-    font-size: 0.6rem;
-    padding: 0.4rem;
-  }
-}
-
-@media screen and (max-width: 880px) {
-  .header__title {
-    font-size: 1.9rem;
-  }
-}
-
-@media screen and (max-width: 830px) {
-  .header__title {
-    font-size: 1.8rem;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .header {
-    height: 100%;
-  }
   .header__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem 0;
+    height: 84%;
+  }
+
+  .header__description {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    position: relative;
     align-items: center;
-    padding-top: 30px;
   }
-  .header__image {
-    width: 600px;
-    height: 360px;
-  }
-  .header__title {
-    text-align: center;
-  }
-}
 
-@media screen and (max-width: 630px) {
   .header__wrap {
-    max-width: 430px;
+    display: flex;
+    flex-direction: column;
+    max-width: 567px;
+    gap: 2rem;
   }
-  .header__image {
-    width: 430px;
-    height: 340px;
-  }
-}
 
-@media screen and (max-width: 520px) {
-  .header__wrap {
-    align-items: center;
-    gap: 1.3rem;
-  }
   .header__title {
-    font-size: 1.5rem;
+    max-width: 100%;
+    padding: 0 10px;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: normal;
+    text-align: left;
+    margin: 0;
   }
+
   .header__paragraph {
-    max-width: 310px;
-    font-size: 0.9rem;
-    line-height: 1.2rem;
+    max-width: 100%;
+    padding: 0 10px;
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.7rem;
+    text-align: justify;
   }
+
   .header__link {
-    margin: auto;
-    padding: 10px 60px;
+    font-size: 0.8rem;
+    padding: 0.6rem;
+    width: fit-content;
+    border-radius: 5px;
+    background-color: #1c3879;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-self: flex-end;
   }
+
+  .header__link:hover {
+    background-color: #1c3879d6;
+    transition: ease 0.3s;
+  }
+
+  .header__image-container {
+    display: flex;
+    object-fit: cover;
+    background-size: contain;
+    position: relative;
+    justify-content: center;
+  }
+
   .header__image {
-    width: 290px;
-    height: 200px;
-    background-size: cover;
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    background-size: 100%;
+    border-radius: 0 0 0 10px;
+    height: 50vh;
   }
-}
+
+  .header__text-container {
+    width: 100%;
+    height: 33%;
+    position: absolute;
+    bottom: 14px;
+    left: 0;
+    background-color: rgb(0 0 0 / 46%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 0 0 10px;
+  }
+
+  .header__image-text {
+    color: #fff;
+    font-size: 2.5rem;
+    width: 95%;
+    height: 65%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+
+  }
+  .header__image-text:hover {
+    font-size: 2.6rem;
+    transition: ease .3s;
+  }
+
+@media screen and (max-width: 1240px) {
+    .header {
+      height: 550px;
+    }
+    .header__title {
+      font-size: 2.5rem;
+    }
+    .header__paragraph {
+      font-size: 1.3rem;
+    }
+
+    .header__link {
+      margin-right: 10px;
+    }
+  }
+
+  @media screen and (max-width: 1030px) {
+    .header {
+      height: 450px;
+    }
+    .header__title {
+      font-size: 2.3rem;
+    }
+    .header__paragraph {
+      font-size: 1rem;
+      line-height: 1.4rem;
+    }
+  }
+
+  @media screen and (max-width: 980px) {
+    .header__title {
+      font-size: 2.1rem;
+      text-align: left;
+    }
+    .header__link {
+      margin-right: 10px;
+      font-size: 0.6rem;
+      padding: 0.4rem;
+    }
+  }
+
+  @media screen and (max-width: 880px) {
+    .header__title {
+      font-size: 1.9rem;
+    }
+  }
+
+  @media screen and (max-width: 830px) {
+    .header__title {
+      font-size: 1.8rem;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .header {
+      height: 100%;
+    }
+    .header__container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 30px;
+    }
+    .header__image {
+      width: 600px;
+      height: 360px;
+    }
+    .header__title {
+      text-align: center;
+    }
+  }
+
+  @media screen and (max-width: 630px) {
+    .header__wrap {
+      max-width: 430px;
+    }
+    .header__image {
+      width: 430px;
+      height: 340px;
+    }
+  }
+
+  @media screen and (max-width: 520px) {
+    .header__wrap {
+      align-items: center;
+      gap: 1.3rem;
+    }
+    .header__title {
+      font-size: 1.5rem;
+    }
+    .header__paragraph {
+      max-width: 310px;
+      font-size: 0.9rem;
+      line-height: 1.2rem;
+    }
+    .header__link {
+      margin: auto;
+      padding: 10px 60px;
+    }
+    .header__image {
+      width: 290px;
+      height: 200px;
+      background-size: cover;
+    }
+  }
