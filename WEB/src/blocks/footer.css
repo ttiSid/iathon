@@ -35,6 +35,11 @@
   font-size: 1rem;
 }
 
+.footer__repo:hover {
+  color: #ffffff67;
+  transition: ease 0.3s;
+}
+
 .footer__team {
   color: white;
   text-decoration: none;
@@ -53,7 +58,7 @@
 
 .footer__member:hover {
   opacity: 0.5;
-  transition: ease-in 0.3s;
+  transition: ease 0.3s;
 }
 
 @media screen and (max-width: 1500px) {
@@ -97,9 +102,12 @@
 }
   .footer__container {
     flex-direction: column;
-    gap: 25px;
+    gap: 0;
     justify-content: center;
   }
+  .footer__container-about {
+    gap: 15px;
+}
 }
 
 @media screen and (max-width: 370px) {

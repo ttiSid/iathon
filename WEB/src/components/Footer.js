@@ -80,7 +80,7 @@ function Footer() {
           </ul>
         </div>
         <a href="#" className="footer__repo">
-          Link para o repositório
+          Link para o Repositório
         </a>
       </div>
     </footer>
