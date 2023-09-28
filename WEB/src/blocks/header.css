@@ -70,18 +70,13 @@
   background-repeat: no-repeat;
   box-shadow: -1px 1px 6px -1px;
 }
-
-/* primeiro break point em 1200px */
-
 @media screen and (max-width: 1240px) {
   .header {
     height: 550px;
   }
-
   .header__title {
     font-size: 2.5rem;
   }
-
   .header__paragraph {
     font-size: 1.3rem;
   }
