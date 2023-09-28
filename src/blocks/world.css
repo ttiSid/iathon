@@ -27,44 +27,15 @@
 }
 
 .world__list {
-  display: flex;
-  list-style: none;
-  column-gap: 3.12rem;
-  padding: 0 10px;
-  margin: 30px 0 0 0;
-}
-
-.world__item {
-  display: flex;
-  flex-direction: row;
-  width: 260px;
-  height: 100px;
-  justify-content: space-around;
-  align-items: center;
-  background-color: #eae3d2;
-  border-radius: 3px;
-}
-
-.world__item-title {
+  padding:0;
+  padding-top: 3rem;
   margin: 0;
-  font-size: 3.12rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 4rem;
 }
 
-.world__item-paragraph {
-  margin: 0;
-  font-size: 0.9rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.31rem;
-}
+.world__chart {
 
-.world__item-image {
-  background-color: black;
-  width: 54px;
-  height: 54px;
+  width: 290px;
+  height: 290px;
 }
 
 @media screen and (max-width: 1240px) {
@@ -77,11 +48,6 @@
   }
   .world__list {
     column-gap: 2.5rem;
-  }
-  .world__item {
-    flex-direction: column;
-    width: 200px;
-    height: 190px;
   }
 }
 
@@ -96,10 +62,6 @@
   .world__list {
     column-gap: 1.4rem;
   }
-  .world__item {
-    width: 165px;
-    height: 155px;
-  }
 }
 
 @media screen and (max-width: 768px) {
@@ -113,14 +75,6 @@
   }
 }
 
-/* @media screen and (max-width: 670px) {
-  .country__chart {
-    width: 500px;
-    height: 500px;
-  }
-} */
-
-
 @media screen and (max-width: 630px) {
   .world__title {
     font-size: 1.8rem;
@@ -131,7 +85,6 @@
 }
 
 @media screen and (max-width: 520px) {
-
   .header__wrap {
     gap: 1.3rem;
   }
