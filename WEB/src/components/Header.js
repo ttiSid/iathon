@@ -20,7 +20,7 @@ function Header() {
   }, []);
 
   return (
-    <header className="header">
+    <header className="header" id="header">
       <div className="header__container">
         <div className="header__description">
           <div className="header__wrap">

@@ -44,7 +44,7 @@
   line-height: 1.6rem;
   margin: 0;
   text-align: justify;
-  padding: 1rem;
+  padding: 10px;
 }
 
 .ia__title {
@@ -75,7 +75,6 @@
   .ia__title {
     font-size: 2.3rem;
   }
-
   .ia__authors {
     font-size: 0.9rem;
   }
@@ -92,7 +91,6 @@
     width: 740px;
     font-size: 2rem;
   }
-
   .ia__authors {
     font-size: 0.8rem;
   }
@@ -142,28 +140,26 @@
 
 @media screen and (max-width: 520px) {
 .ia__title {
-  max-width: 300px;
+  max-width: 290px;
   font-size: 1.3rem;
 }
 
 .ia__items {
-  width: 320px;
+  width: 300px;
   align-items: center
 }
   .ia__item {
-    width: 300px;
+    width: 290px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
 
 .ia__text {
-  width: 300px;
-
+  width: 280px;
 }
 .ia__quote {
-  width: 300px;
+  width: 280px;
   font-size: 0.7rem;
 }
-
 }

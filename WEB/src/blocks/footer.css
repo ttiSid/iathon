@@ -1,64 +1,109 @@
 .footer {
-  background-color:#1c3879 ;
+  background-color: #1c3879;
   max-width: 100%;
   height: 20vh;
   padding: 10px 40px;
+  display: flex;
+  justify-content: center;
+}
 
-  }
-
-  .footer__container {
+.footer__container {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  gap: 77px;
+  gap: 300px;
+}
+.footer__container-about {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
 
-
-  }
-  .footer__container-about {
-    display: grid;
-  }
-
-  .footer__copyright {
+.footer__copyright {
   color: white;
   margin: 0;
+  font-size: 1rem;
+}
 
-  }
+.footer__image {
+  width: 200px;
+  height: 200px;
+}
 
-  .footer__image {
-  width: 150px;
-  height: 150px;
-  }
-
-  .footer__repo {
+.footer__repo {
   color: white;
-  }
+  font-size: 1rem;
+}
 
-  .footer__team {
+.footer__team {
   color: white;
   text-decoration: none;
   list-style: none;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  }
+  padding: 0;
+  column-gap: 30px;
+}
 
-  .footer__member {
+.footer__member {
   text-decoration: none;
   color: white;
+  font-size: 1.5rem;
+}
+
+.footer__member:hover {
+  opacity: 0.5;
+  transition: ease-in 0.3s;
+}
+
+@media screen and (max-width: 1500px) {
+  .footer__container {
+    gap: 220px;
+  }
+}
+
+@media screen and (max-width: 1330px) {
+  .footer__container {
+    gap: 150px;
+  }
+}
+
+@media screen and (max-width: 1330px) {
+  .footer__image {
+    width: 180px;
+    height: 200px;
   }
 
-  .footer__member:hover {
-    opacity: 0.5;
-    transition: ease-in 0.3s;
+  .footer__container {
+    gap: 80px;
   }
+  .footer__member {
+    font-size: 1.2rem;
+  }
+}
 
-  @media screen and (max-width: 768px) {
-    .footer {
-      height: 45vh;
-    }
-   .footer__container {
+@media screen and (max-width: 1330px) {
+  .footer__container {
+    gap: 30px;
+}
+  .footer__container-about {
     flex-direction: column;
-    gap: 15px;
   }
-  }
+}
 
- 
+@media screen and (max-width: 768px) {
+  .footer {
+    height: 40vh;
+}
+  .footer__container {
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .footer__copyright {
+    font-size: .9rem;
+  }
+}
