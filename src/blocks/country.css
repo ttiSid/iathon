@@ -7,7 +7,7 @@
 
 .country__chart {
   width: 600px;
-  height: 600px;
+  height: 300px;
 }
 
 .country__container-text {
@@ -127,7 +127,7 @@
 @media screen and (max-width: 670px) {
   .country__chart {
     width: 500px;
-    height: 500px;
+    height: 200px;
   }
 }
 
@@ -153,7 +153,7 @@
 
   .country__chart {
     width: 450px;
-    height: 450px;
+    height: 250px;
 }
 }
 
@@ -172,7 +172,25 @@
 
   .country__chart {
     width: 290px;
-    height: 290px;
+    height: 190px;
   }
 }
 
+@media screen and (max-width: 520px) {
+  .country__title {
+    font-size: 1.3rem;
+  }
+  .country__paragraph {
+    font-size: 1rem;
+    width: 280px;
+  }
+
+  .country__item {
+    width: 300px;
+  }
+
+  .country__chart {
+    width: 290px;
+    height: 190px;
+  }
+}

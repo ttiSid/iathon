@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import Chart from "./Chart";
 
 function World() {
-  /*Diabetes por gênero*/
   const [diabetesPorGenero, setDiabetesPorGenero] = useState();
 
   useEffect(() => {
@@ -93,19 +92,6 @@ function World() {
         tempor incididunt ut labore et dolore magna aliquat enim ad minim.
       </p>
       <ul className="world__list">
-        {/* <li className="world__item"> */}
-        {/* <img className="world__item-image" src="" alt=""></img>
-          <div className="world__item-container">
-            <h4 className="world__item-title">102</h4>
-            <p className="world__item-paragraph">Type something</p>
-          </div>
-        </li>
-        <li className="world__item">
-          <img className="world__item-image" src="" alt=""></img>
-          <div className="world__item-container">
-            <h4 className="world__item-title">102</h4>
-            <p className="world__item-paragraph">Type something</p>
-          </div>*/}
         {
           <Chart
             options={graficoPorGenero.options}
