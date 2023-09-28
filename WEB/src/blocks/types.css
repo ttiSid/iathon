@@ -171,7 +171,7 @@
   .types__paragraph {
     font-size: 1rem;
     width: 340px;
-    height: 360px;
+    height: 400px;
     line-height: 1.2rem;
     padding-top: 10px;
   }
@@ -186,7 +186,7 @@
     height: 50px;
   }
   .types__item-button {
-    font-size: 0.7rem;
+    font-size: 1rem;
   }
 }
 @media screen and (max-width: 520px) {
@@ -202,23 +202,28 @@
     font-size: 1.3rem;
     text-align: center;
   }
+
+  .types__container-text {
+    gap: 10px;
+  }
   .types__paragraph {
     font-size: 1rem;
-    width: 300px;
+    width: 280px;
     height: 100%;
     line-height: 1.2rem;
     padding-top: 10px 10px;
     text-align: center;
+    padding: 5px;
   }
   .types__list {
     display: grid;
   }
   .types__item {
-    width: 300px;
+    width: 290px;
     height: 45px;
   }
   .types__container-text {
-    width: 300px;
+    width: 290px;
   }
   .types__paragraph {
     align-items: flex-start;
