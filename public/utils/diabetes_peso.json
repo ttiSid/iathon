@@ -1,6 +1,6 @@
 [
-  { "Grau de Obesidade": "Abaixo do Peso", "Taxa de Diabetes (%)": 0.9 },
-  { "Grau de Obesidade": "Normal", "Taxa de Diabetes (%)": 3.9 },
-  { "Grau de Obesidade": "Sobrepeso", "Taxa de Diabetes (%)": 7.3 },
-  { "Grau de Obesidade": "Obeso", "Taxa de Diabetes (%)": 18.0 }
+  { "grau": "Abaixo do Peso", "taxa": 0.9 },
+  { "grau": "Normal", "taxa": 3.9 },
+  { "grau": "Sobrepeso", "taxa": 7.3 },
+  { "grau": "Obeso", "taxa": 18.0 }
 ]

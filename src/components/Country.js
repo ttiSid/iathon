@@ -89,9 +89,9 @@ function Country() {
           minim.
         </p>
       </div>
-      <ul className="country__charts">
+      <div className="country__charts">
         {<Chart series={obitoChart.series} options={obitoChart.options} />}
-      </ul>
+      </div>
     </section>
   );
 }
