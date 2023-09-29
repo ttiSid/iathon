@@ -127,6 +127,10 @@
   }
 }
 
+.types__item-button-active {
+  padding: 0.3rem;
+}
+
 @media screen and (max-width: 768px) {
   .types {
     flex-direction: row-reverse;
