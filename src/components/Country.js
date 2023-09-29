@@ -86,9 +86,9 @@ function Country() {
           levou a óbito 755.732 brasileiros.
         </p>
       </div>
-      <ul className="country__charts">
+      <div className="country__charts">
         {<Chart series={obitoChart.series} options={obitoChart.options} />}
-      </ul>
+      </div>
     </section>
   );
 }

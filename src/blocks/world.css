@@ -27,13 +27,15 @@
 }
 
 .world__list {
-  padding:0;
+  padding: 0;
   padding-top: 3rem;
   margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .world__chart {
-
   width: 290px;
   height: 290px;
 }
