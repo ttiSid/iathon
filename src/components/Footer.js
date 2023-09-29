@@ -79,7 +79,7 @@ function Footer() {
             </li>
           </ul>
         </div>
-        <a href="#" className="footer__repo">
+        <a href="https://github.com/iathon" className="footer__repo">
           Link para o Repositório
         </a>
       </div>
