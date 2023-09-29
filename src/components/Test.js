@@ -3,10 +3,7 @@ function Test() {
     <section className="test" id="test">
       <div className="test__text-container">
         <h2 className="test__title">Faça seu teste aqui!</h2>
-        <p className="test__paragraph">
-          Este teste tem como base, dados coletados do ....... , não serve como
-          diagnóstico médico, para maiores esclarecimentos, consulte o seu
-          médico, ou se dirija até o agente de saúde mais próximo.
+        <p className="test__paragraph">Este teste tem como base dados coletados do Repositório da <a className="test__link" href="https://archive.ics.uci.edu/dataset/529/early+stage+diabetes+risk+prediction+dataset" target="_blanc">UC Irvine</a>, a partir do qual um modelo de Machine Learning foi construído para fazer uma previsão de chances de desenvolver ou estar com diabetes. INFORMAMOS que este modelo não serve como diagnóstico médico, orientamos a buscar informações junto aos agentes de saúde mais próximo.
         </p>
       </div>
       <div className="test__container">
