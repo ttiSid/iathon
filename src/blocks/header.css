@@ -49,6 +49,7 @@
   color: rgb(255, 255, 255);
   display: flex;
   align-self: flex-end;
+  font-size: 1rem;
 }
 .header__link:hover {
   background-color: #1c3879d6;
@@ -138,11 +139,11 @@
     font-size: 2.1rem;
     text-align: left;
   }
-  .header__link {
+/*   .header__link {
     margin-right: 10px;
     font-size: 0.6rem;
     padding: 0.4rem;
-  }
+  } */
 }
 
 @media screen and (max-width: 880px) {
@@ -201,12 +202,12 @@
     gap: 1.3rem;
   }
   .header__title {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
   .header__paragraph {
     max-width: 310px;
-    font-size: 0.9rem;
-    line-height: 1.2rem;
+    font-size: 1rem;
+    line-height: 1.3rem;
   }
   .header__link {
     margin: auto;

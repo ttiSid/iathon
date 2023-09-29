@@ -191,17 +191,15 @@
     align-items: center;
   }
   .types__title {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     text-align: center;
   }
   .types__container-text {
     gap: 10px;
   }
   .types__paragraph {
-    font-size: 1rem;
     width: 280px;
     height: 100%;
-    line-height: 1.2rem;
     padding-top: 10px 10px;
     text-align: center;
     padding: 5px;

@@ -138,24 +138,7 @@
 
 @media screen and (max-width: 520px) {
   .country__title {
-    font-size: 1.3rem;
-  }
-  .country__paragraph {
-    font-size: 1rem;
-    width: 280px;
-  }
-  .country__item {
-    width: 300px;
-  }
-  .country__chart {
-    width: 290px;
-    height: 190px;
-  }
-}
-
-@media screen and (max-width: 520px) {
-  .country__title {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
   }
   .country__paragraph {
     font-size: 1rem;
