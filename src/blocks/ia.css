@@ -6,7 +6,6 @@
   padding: 3.12rem 1rem;
   background-color: #3f5679;
 }
-
 .ia__items {
   list-style: none;
   padding: 0;
@@ -15,7 +14,6 @@
   flex-direction: column;
   gap: 2rem;
 }
-
 .ia__item {
   display: flex;
   gap: 1rem;
@@ -24,18 +22,15 @@
   box-shadow: 4px 5px 13px 0px rgba(0, 0, 0, 0.3);
   background-color: #364760;
 }
-
 .ia__item:nth-child(2) {
   flex-direction: row-reverse;
 }
-
 .ia__image {
   object-fit: cover;
   width: 350px;
   max-width: 100%;
   border-radius: 20px;
 }
-
 .ia__text {
   color: #e1e1e1;
   display: flex;
@@ -46,7 +41,6 @@
   text-align: justify;
   padding: 10px;
 }
-
 .ia__title {
   color: #c9c9c9;
   font-size: 2.5rem;
@@ -54,7 +48,6 @@
   margin: 0;
   width: 960px;
 }
-
 .ia__authors {
   font-style: italic;
   font-size: 1rem;
@@ -62,7 +55,6 @@
   margin: 0;
   color: #fff;
 }
-
 .ia__quote {
   color: #c9c9c9;
   font-size: 1rem;
@@ -129,7 +121,7 @@
     max-width: 430px;
     font-size: 1.8rem;
   }
-  .ia__text{
+  .ia__text {
     width: 430px;
   }
   .ia__quote {
@@ -142,27 +134,25 @@
   .ia {
     padding: 3.12rem 0;
   }
-.ia__title {
-  max-width: 270px;
-  font-size: 1.3rem;
-}
-
-.ia__items {
-  width: 280px;
-  align-items: center
-}
+  .ia__title {
+    max-width: 270px;
+    font-size: 1.3rem;
+  }
+  .ia__items {
+    width: 280px;
+    align-items: center;
+  }
   .ia__item {
     width: 280px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
-
-.ia__text {
-  width: 270px;
-}
-.ia__quote {
-  width: 270px;
-  font-size: 0.7rem;
-}
+  .ia__text {
+    width: 270px;
+  }
+  .ia__quote {
+    width: 270px;
+    font-size: 0.7rem;
+  }
 }
