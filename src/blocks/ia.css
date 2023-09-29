@@ -71,7 +71,7 @@
     font-size: 0.9rem;
   }
   .ia__text {
-    font-size: 1.1rem;
+    line-height: 1.3rem;
   }
   .ia__image {
     width: 300px;
@@ -90,7 +90,7 @@
     width: 250px;
   }
   .ia__text {
-    font-size: 0.9rem;
+    font-size: 1rem;
     line-height: 1.4rem;
   }
   .ia__quote {
@@ -112,7 +112,7 @@
   }
   .ia__quote {
     width: 500px;
-    font-size: 0.7rem;
+
   }
 }
 
@@ -136,7 +136,7 @@
   }
   .ia__title {
     max-width: 270px;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
   }
   .ia__items {
     width: 280px;
@@ -153,6 +153,6 @@
   }
   .ia__quote {
     width: 270px;
-    font-size: 0.7rem;
+  
   }
 }
