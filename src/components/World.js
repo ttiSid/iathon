@@ -176,8 +176,7 @@ function World() {
     <section className="world" id="world">
       <h2 className="world__title">Números do Diabetes no Mundo</h2>
       <p className="world__paragraph">
-        Relação de probabilidade de ser acometido por diabetes entre homens e
-        mulheres. Homens possuem 10,30% enquanto as mulheres 7,9%.
+      Relação de probabilidade de ser acometido por diabetes entre homens,  mulheres e  por peso.
       </p>
       <div className="world__list">
         {
