@@ -6,7 +6,7 @@ Construir um modelo de inteligência artificial (IA) que utilize dados fáceis d
 
 ## Autores
 
-- [@IA no Diabetes](https://github.com/iathon)
+- [@IA no Diabetes](https://iathon.github.io/iathon/)
 
 •	RAPHAEL RAMIER
 •	MAIKON CORREA
