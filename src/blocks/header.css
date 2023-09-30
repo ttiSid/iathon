@@ -100,6 +100,7 @@
   transform: scale(1.1);
 }
 
+
 @media screen and (max-width: 1240px) {
   .header {
     height: 550px;
@@ -139,11 +140,6 @@
     font-size: 2.1rem;
     text-align: left;
   }
-/*   .header__link {
-    margin-right: 10px;
-    font-size: 0.6rem;
-    padding: 0.4rem;
-  } */
 }
 
 @media screen and (max-width: 880px) {
