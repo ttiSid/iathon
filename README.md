@@ -98,6 +98,11 @@ DADOS - melhores bases de dados referente a Diabetes para utilizar no teste.
 
 -README - ATUALIZAÇÃO COMPLETA, COM: Sobre-nós, Referencias, Documentação de cores, Api, Documentação, 
 
+<div style="text-align:center; width: 150px; height: 250px; border: 1px solid #ccc; padding: 10px;">
+<h2>Nosso Logo no Hackathon</h2>
+<img src="./src/images/logo.png" width="120" height="130" alt="Logo da nossa participação do Hackathon denominado IAthon">
+</div>
+
 
 
 
