@@ -8,12 +8,18 @@ Construir um modelo de inteligência artificial (IA) que utilize dados fáceis d
 
 - [@IA no Diabetes](https://iathon.github.io/iathon/)
 
-•	RAPHAEL RAMIER
-•	MAIKON CORREA
-•	MIRIAM KAVULAMINE
-•	NUNO MACHADO
-•	SIDNEY SUDATTI
-•	WILLIAM 
+- RAPHAEL RAMIER [<img src="./src/images/linkedin.png" width="16" height="16">](https://www.linkedin.com/in/raphael-ramier-a824b711a/) [<img src="./src/images/github.png" width="16" height="16">](https://github.com/RaphaRamier)
+
+- MAIKON CORREA [<img src="./src/images/linkedin.png" width="16" height="16">](https://www.linkedin.com/in/maikon-correa-9a5407264/) [<img src="./src/images/github.png" width="16" height="16">](https://github.com/MaikonCorrea)
+
+- MIRIAM KAVULAMINE [<img src="./src/images/linkedin.png" width="16" height="16">](https://www.linkedin.com/in/miriam-kavulamine-746597154/) [<img src="./src/images/github.png" width="16" height="16">](https://github.com/Miriam320)
+
+- NUNO MACHADO [<img src="./src/images/linkedin.png" width="16" height="16">](https://www.linkedin.com/in/nuno-j-machado/) [<img src="./src/images/github.png" width="16" height="16">](https://github.com/NunoMac)
+
+- SIDNEY SUDATTI  [<img src="./src/images/linkedin.png" width="16" height="16">](https://www.linkedin.com/in/sidney-sudatti-8231401b8/) [<img src="./src/images/github.png" width="16" height="16">](https://github.com/ttiSid)
+
+- WILLIAM DE ALBUQUERQUE [<img src="./src/images/linkedin.png" width="16" height="16">](https://www.linkedin.com/in/willian-roberto-carneiro-de-albuquerque-3250221a0/) [<img src="./src/images/github.png" width="16" height="16">](https://github.com/willianadb)
+
 
 
 ## Apêndice
