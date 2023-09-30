@@ -39,7 +39,7 @@ Temos um conjunto de dados com as seguintes caracteristica:
 •	Não temos Valores Ausentes no conjunto de dados, nem dados Duplicado;
 
 •	Criamos a coluna ID, para nos certificar que não temos dados duplicados no nosso conjunto de dados.
-
+<!-- 
 ## Documentação de cores
 
 | Cor               | Hexadecimal                                                |
@@ -76,7 +76,7 @@ Temos um conjunto de dados com as seguintes caracteristica:
 
 Recebe dois números e retorna a sua soma.
 
-
+ -->
 <!-- ## Contribuindo
 
 Contribuições são sempre bem-vindas!
@@ -165,6 +165,8 @@ SITE- melhorias no Streamlit layout, melhorias no menu menor que 768px
 DADOS - melhores bases de dados referente a Diabetes para utilizar no teste.
 
 -APLICATIVO MOBILE - criar aplicativo mobile IOS/ANDROID
+
+-README - ATUALIZAÇÃO COMPLETA, COM: Sobre-nós, Referencias, Documentação de cores, Api, Documentação, 
 
 
 
