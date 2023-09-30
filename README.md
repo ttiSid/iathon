@@ -1,10 +1,8 @@
-Modelo para Predição de Diabetes
+## Modelo para Predição de Diabetes
 
-A diabetes é uma das doenças crônicas mais prevalentes e de crescimento alarmante em todo o mundo. Ela afecta milhões de pessoas no mundo inteiro, causando impactos significativos na saúde e na qualidade de vida das pessoas. As diabetes não apenas representa uma carga substancial para os sistemas de saúde, mas também impõe desafios pessoais e econômicos para aqueles que vivem com a doença.
-Diante desse cenário, nosso objetivo é encontrar umas maneiras eficazes de prever o risco de desenvolvimento da diabetes em indivíduos, a fim de possibilitar intervenções precoces e estratégias de prevenção direcionadas.
+A diabetes é uma das doenças crônicas mais prevalentes e de crescimento alarmante em todo o mundo. Ela afeta milhões de pessoas no mundo inteiro, causando impactos significativos na saúde e na qualidade de vida das pessoas. O diabetes não apenas representa uma carga substancial para os sistemas de saúde, mas também impõe desafios pessoais e econômicos para aqueles que vivem com a doença.
+Diante desse cenário, nosso objetivo é encontrar maneiras eficazes de prever o risco de desenvolvimento da diabetes em indivíduos, a fim de possibilitar intervenções precoces e estratégias de prevenção direcionadas.
 Construir um modelo de inteligência artificial (IA) que utilize dados fáceis de preencher por qualquer pessoa de forma a combater o subdiagnóstico (cerca de 50%) no mundo e orientar pessoas em risco de desenvolver diabetes a procurar ajuda especializada. O objetivo central é prever com precisão através da (AI) se as pessoas são propensas a desenvolver diabetes com base em informações simples e acessíveis.
-
-
 
 ## Autores
 
@@ -19,7 +17,6 @@ Construir um modelo de inteligência artificial (IA) que utilize dados fáceis d
 
 
 ## Apêndice
-
 
 Temos um conjunto de dados com as seguintes caracteristica:
 •	Contagem: Existem 520 observações (ou registos) no nosso dataset;
