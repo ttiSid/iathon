@@ -4,9 +4,9 @@ A diabetes é uma das doenças crônicas mais prevalentes e de crescimento alarm
 Diante desse cenário, nosso objetivo é encontrar maneiras eficazes de prever o risco de desenvolvimento da diabetes em indivíduos, a fim de possibilitar intervenções precoces e estratégias de prevenção direcionadas.
 Construir um modelo de inteligência artificial (IA) que utilize dados fáceis de preencher por qualquer pessoa de forma a combater o subdiagnóstico (cerca de 50%) no mundo e orientar pessoas em risco de desenvolver diabetes a procurar ajuda especializada. O objetivo central é prever com precisão através da (AI) se as pessoas são propensas a desenvolver diabetes com base em informações simples e acessíveis.
 
-## Autores
+- [Link da página](https://iathon.github.io/iathon/)
 
-- [@IA no Diabetes](https://iathon.github.io/iathon/)
+## Autores
 
 - RAPHAEL RAMIER [<img src="./src/images/linkedin.png" width="16" height="16">](https://www.linkedin.com/in/raphael-ramier-a824b711a/) [<img src="./src/images/github.png" width="16" height="16">](https://github.com/RaphaRamier)
 
