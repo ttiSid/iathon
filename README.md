@@ -1,3 +1,7 @@
+<div align="center">
+  <img height="600" src="https://raw.githubusercontent.com/ttiSid/iathon/b064e4ec2c3d95449feaaae5b5e3ddff6289102a/iathon.png"  />
+</div>
+
 ## Modelo para Predição de Diabetes
 
 A diabetes é uma das doenças crônicas mais prevalentes e de crescimento alarmante em todo o mundo. Ela afeta milhões de pessoas no mundo inteiro, causando impactos significativos na saúde e na qualidade de vida das pessoas. O diabetes não apenas representa uma carga substancial para os sistemas de saúde, mas também impõe desafios pessoais e econômicos para aqueles que vivem com a doença.
